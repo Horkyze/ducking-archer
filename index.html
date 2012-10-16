@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mobile comparison</title>
-        <url>Horkyze edit</url>
-    </head>
+ <html>
+ <head>
+     <style>
+		#wrapper {
+			background: pink;
+			width: 960px;
+			margin: auto;
     
-    <body>
-        <h1>Simple webpage</h1>
-	<h2>Hemem heme edited</h2>
-	<p>
-	Tomas edit
-	Tomas edit 2
-	</p>
-    </body>
-</html>
+		}
+
+		#logo{
+			background: blue;                          
+		}
+
+
+		#nav{
+			 background: green;                          
+		}
+
+
+		#content{
+			 background: red; 
+			 
+		}
+
+
+		#footer{
+			 background: brown;                          
+		}
+		
+		.float{
+			float: left;
+			width: 50%;
+		}
+		
+		div{
+			text-align: center
+		}
+
+	 </style>
+	 <title>Title of the document</title>
+ </head>
+ <body>
+     
+     <div id="wrapper">
+         <div id="logo">LOGO</div>
+         <div id="nav"> NAV</div>
+         <div id="content">
+			<div class="float"> float 1</div>
+			<div class="float"> float 2</div>
+			<div style="clear: both;"></div>
+			content
+         </div>
+         <div id="footer">FOOTER</div>
+         
+        
+    </div>
+ </body>
+ </html>
