@@ -1,0 +1,79 @@
+
+#wrapper {
+	background: white;
+	width: 960px;
+	margin: auto;
+	font-family: "Arial";
+    
+}
+
+#logo{
+	background: blue;
+	text-align: center;
+	height: 100px;
+}
+
+
+#nav{
+	background: green;  
+	text-align: center;
+	height: 35px;
+ }
+
+#content{
+	background: white;
+			 
+}
+
+
+#footer{
+	background: brown; 
+	text-align: center;
+}
+		
+.mobil{
+	text-align: center;
+	width: 200px;
+	font-size: 12px;
+}
+		
+.float{
+	float: left;
+	width: 400px;
+	padding: 5px;
+}
+		
+section{
+	margin: 20px;
+	text-align: justify;
+}
+
+article{
+	margin: 20px;
+	text-align: justify;
+	padding
+	
+}
+
+table{
+	border: 1px;
+	padding: 5px;
+	width: 920px;
+	font-size: 12px;
+}
+
+tr{
+	border: 1px solid;
+	padding: 5px;
+}
+
+td{
+	border: 1px solid;
+	padding: 5px;
+}
+
+th{
+	border-style: solid;
+	padding: 5px;
+	background: grey;
+}
