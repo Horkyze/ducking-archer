@@ -1,45 +1,1 @@
-﻿<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link href="css/lightbox.css" rel="stylesheet" />
-		<script src="js/jquery-1.7.2.min.js"></script>
-		<script src="js/lightbox.js"></script>
-		<script >
-			function otvor(s)
-			{
-				$.get(s+".html", function(data){
-				 		$("#content").html(data);
-					});		
-			}
-		</script>
-		
-		<title>Mobily Project</title>
-	</head>
-	<body>
-	 	<section id="wrapper">
-		  	<header id="logo">
-		  	
-		  	</header>
-		  	<nav id="nav"> 
-		  		<a onclick="otvor('onas')" id="w8" >O nas</a>
-		  		<a onclick="otvor('x8')" id="w8" >X8</a>
-		  		<a onclick="otvor('w200')" id="w8" >w200i</a>
-		  		
-		  		<a onclick="otvor('galeria')" >Galeria</a>
-		  		<a onclick="otvor('porovnanie')"  >Porovnani</a>
-		  		
-		  		<a onclick="otvor('videa')" id="w8" >Videa</a>
-		  		<a onclick="otvor('zvuky')" id="w8" >Zvuky</a>
-
-		  	</nav>
-		  	<div id="content"></div>
-		 	<footer id="footer">
-		 		Copyright © 2012 - Matej Bellus - Dominik Miklas
-		 	</footer>
-         
-		</section>
-
-	</body>
-</html>
+﻿<!DOCTYPE html><html>	<head>		<meta charset="utf-8">		<link rel="stylesheet" type="text/css" href="css/style.css">		<link href="css/lightbox.css" rel="stylesheet" />		<script src="js/jquery-1.7.2.min.js"></script>		<script src="js/lightbox.js"></script>		<script >			function otvor(s)			{				$.get(s+".html", function(data){				 		$("#content").html(data);					});					}		</script>				<title>Mobily Project</title>	</head>	<body>	 	<section id="wrapper">		  	<header id="logo">		  			  	</header>		  	<nav id="nav"> 		  		<a onclick="otvor('onas')" id="w8" >O nas</a>		  		<a onclick="otvor('x8')" id="w8" >X8</a>		  		<a onclick="otvor('w200')" id="w8" >w200i</a>		  				  		<a onclick="otvor('galeria')" >Galeria</a>		  		<a onclick="otvor('porovnanie')"  >Porovnani</a>		  				  		<a onclick="otvor('videa')" id="w8" >Videa</a>		  		<a onclick="otvor('zvuky')" id="w8" >Zvuky</a>		  	</nav>		  	<div id="content"></div>		 	<footer id="footer">		 		Copyright © 2012 - Matej Bellus - Dominik Miklas		 	</footer>         		</section>	</body></html>
