@@ -1,6 +1,6 @@
 
 #wrapper {
-	background: white;
+	background: ;
 	width: 960px;
 	margin: auto;
 	font-family: "Arial";
@@ -8,7 +8,7 @@
 }
 
 #logo{
-	background: blue;
+	background-image:url('logo.png') ;
 	text-align: center;
 	height: 100px;
 }
@@ -30,7 +30,11 @@
 	background: brown; 
 	text-align: center;
 }
-		
+
+#uvod{
+	
+	
+}		
 .mobil{
 	text-align: center;
 	width: 200px;
@@ -76,4 +80,12 @@ th{
 	border-style: solid;
 	padding: 5px;
 	background: grey;
+}
+
+body {
+	background-image:url('backqround.png');
+}
+
+img {
+	padding: 10px;
 }
