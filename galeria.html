@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="css/lightbox.css" rel="stylesheet" />
+		
+				<script src="js/jquery-1.8.2.min.js"></script>
+
+		<script src="js/lightbox.js"></script>
+		<script >
+			function otvor(){
+				 $.get("try.html", function(data){
+				 	$("#content").html(data);
+				 });
+			}
+		</script>
+		<title>Mobily Project</title>
+	</head>
+	<body>   
+	 	<section id="wrapper">
+		  	<header id="logo">
+		  	
+		  	</header>
+		  	<nav id="nav"> 
+		  		<a onclick="otvor()" id="w8" >X8</a>
+		  	</nav>
+		  	<div id="content">
+		  	
+
+			
+			</div>
+			
+		 	<footer id="footer">
+		 		Copyright © 2012 - Matej Bellus - Dominik Miklas
+		 	</footer>
+         
+		</section>
+
+	</body>
+</html>
