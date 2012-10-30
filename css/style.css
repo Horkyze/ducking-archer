@@ -14,23 +14,29 @@
 	height: 150px;
 	width: 640px;
 	margin: auto;
-	background-image: url(../images/logo.svg);
-	background-repeat: no-repeat;
 	text-align: center;
 }
 
 
-#nav{
-	background: green;  
+#nav{ 
+	padding-top: 10px;
 	text-align: center;
-	height: 35px;
+	height: 60px;
  }
+ 
+#nav span, a{
+	width: 50px;
+	margin: 5px;
+}
+ 
+#nav a:hover, #choose{
+	cursor: pointer;
+}
 
 #content{
 	background: white;
 			 
 }
-
 
 #footer{
 	background: brown; 
@@ -41,12 +47,20 @@
 	
 	
 }		
-.mobil{
+.mobil, .mobil td{
 	text-align: center;
 	width: 200px;
 	font-size: 12px;
 }
-		
+
+
+.obrazky{
+	text-align: center;
+	border: none;
+	padding: 20px;
+	width: 960px;
+	font-size: 12px;
+}		
 .float{
 	float: left;
 	width: 400px;
@@ -65,24 +79,24 @@ article{
 	
 }
 
-table{
+.porovnaie table{
 	border: 1px;
 	padding: 5px;
 	width: 920px;
 	font-size: 12px;
 }
 
-tr{
+.porovnaie tr{
 	border: 1px solid;
 	padding: 5px;
 }
 
-td{
+.porovnaie td{
 	border: 1px solid;
 	padding: 5px;
 }
 
-th{
+.porovnaie th{
 	border-style: solid;
 	padding: 5px;
 	background: grey;
