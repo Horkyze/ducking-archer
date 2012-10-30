@@ -1,6 +1,6 @@
 
 #wrapper {
-	background: ;
+
 	width: 960px;
 	margin: auto;
 	font-family: "Arial";
@@ -8,9 +8,10 @@
 }
 
 #logo{
-	background-image:url('logo.png') ;
+	
 	text-align: center;
-	height: 100px;
+	height: 150px;
+	background-color: red;
 }
 
 
@@ -83,7 +84,7 @@ th{
 }
 
 body {
-	background-image:url('backqround.png');
+
 }
 
 img {
