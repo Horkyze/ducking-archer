@@ -21,20 +21,36 @@ function choose(s)
 			
 function otvor(s)
 {
-	  $('#content').fadeOut('slow', function() {
-			$.get(s+".html", function(data){					
-					$("#content").html(data);
-					$("#content").fadeIn('slow');
-			});
+	$('#content').fadeOut('slow', function() {
+		$.get(s+".html", function(data){					
+				$("#content").html(data);
+				$("#content").fadeIn('slow');
 		});
+	});
+	
+	change_lang_to($.cookie('lang'));
 }
 			
 $(document).ready(function(){
-		$.get("onas.html", function(data){
-			$("#content").html(data);
-		});
-					
+
+	// init menu
 	$(function() {
 		choose("x8");
 	});
+	
+	// load default page
+	$.get("onas.html", function(data){
+		$("#content").html(data);
+	});
+	
+	// set default lang
+	if ( $.cookie('lang') == null )
+	{
+		console.log("Setting cookie...");
+		$.cookie('lang', 'svk');
+	}
+	
+	//change text to default lang
+	console.log("Changing language to "+ $.cookie('lang'));
+	change_lang_to($.cookie('lang'));
 });
